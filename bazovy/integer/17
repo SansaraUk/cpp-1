@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std
+
+int main() {
+    int num;
+    cout << "Введите число больше 999: ";
+    cin >> num;
+
+    int hundreds_digit = (num / 100) % 10;
+    cout << "Цифра в разряде сотен: " << hundreds_digit << std::endl;
+
+    return 0;
+}
